@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Neon-Circle-PNG-Cutout_0: 6331072166867456255
+      Neon-Circle-PNG-Cutout_1: 6529219393251654366
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Dungeon_brick_wall_blue.png_0: 3868888514237400565
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

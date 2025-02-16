@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pngtree-shining-circle-blue-neon-light-png-png-image_6061568_0: 7330692670622772822
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

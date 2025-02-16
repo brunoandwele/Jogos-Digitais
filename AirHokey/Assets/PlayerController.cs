@@ -19,7 +19,21 @@ public class PlayerController : MonoBehaviour
         var pos = transform.position;
         pos.x = mousePos.x;
         pos.y = mousePos.y;
-        transform.position = pos;
 
+        if(pos.x < -5){
+            pos.x = -5;
+        }else if(pos.x > 5){
+            pos.x = 5;
+        }
+        
+        if(pos.y >= 0){
+            pos.y = 0;
+        }
+        else if(pos.y < -5){
+            pos.y = -5;
+        }
+
+
+        transform.position = pos;
     }
 }

@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pngtree-blue-neon-circle-png-image_6484410_0: 6470417732182337427
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

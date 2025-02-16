@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4edb297e160979c40a542265b089364b
+guid: 48ba1720aced64849acf727ef14f2c7a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4125976728804480323
-    second: neon-background_0
+      213: 8166710274925509176
+    second: red_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: neon-background_0
+      name: red_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 498
-        height: 275
+        width: 261
+        height: 193
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dbaa41886069db6c0800000000000000
-      internalID: -4125976728804480323
+      spriteID: 83ab778d9bbf55170800000000000000
+      internalID: 8166710274925509176
       vertices: []
       indices: 
       edges: []
@@ -130,8 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      neon-background_0: -4125976728804480323
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
