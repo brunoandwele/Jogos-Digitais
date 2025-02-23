@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ball_Red_Glossy-32x32_0: -8648578348374747062
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

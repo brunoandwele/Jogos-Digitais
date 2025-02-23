@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Colored_Purple_Block-64x32_0: 3059968553134048840
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

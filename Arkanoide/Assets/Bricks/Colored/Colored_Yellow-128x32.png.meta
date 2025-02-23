@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Colored_Yellow-128x32_0: -4048410178343210149
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

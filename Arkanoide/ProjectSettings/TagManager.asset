@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - wall
+  - LoseWall
+  - TopWall
+  - Ball
+  - Block
+  - Wall
+  - Heart
   layers:
   - Default
   - TransparentFX

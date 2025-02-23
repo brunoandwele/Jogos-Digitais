@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Textured_Stone_01-128x32_0: -5794633767869472306
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

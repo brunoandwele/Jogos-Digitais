@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ball_Blue_Glass-32x32_0: -8386158648346544611
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

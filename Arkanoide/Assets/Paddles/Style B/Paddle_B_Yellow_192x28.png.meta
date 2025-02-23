@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Paddle_B_Yellow_192x28_0: -7617599396977086761
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

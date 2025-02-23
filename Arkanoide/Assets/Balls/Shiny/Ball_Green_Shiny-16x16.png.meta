@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ball_Green_Shiny-16x16_0: 1316450640053983714
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

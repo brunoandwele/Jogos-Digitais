@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Textured_Brick_03-128x32_0: -504449564456804084
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ball_Chrome_Glass-32x32_0: 3398085796945946949
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
