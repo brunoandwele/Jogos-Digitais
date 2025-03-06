@@ -6,6 +6,15 @@ public class PlayerBullet : MonoBehaviour
 {
     public float speed = 5f;
 
+    // Dicionário para mapear tags de inimigos e seus pontos
+    private readonly Dictionary<string, int> enemyPoints = new Dictionary<string, int>()
+    {
+        { "Invader1", 10 },
+        { "Invader2", 20 },
+        { "Invader3", 30 },
+        { "RareInvader", 50 }
+    };
+
     void Start()
     {
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
@@ -17,26 +26,27 @@ public class PlayerBullet : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Invader"))
+        if (enemyPoints.ContainsKey(collision.tag))
         {
-            GameManager.notifyInvaderDestroyed();
-            Destroy(collision.gameObject);
-            Destroy(gameObject); 
-        }
-        else if (collision.CompareTag("RareInvader"))
-        {
-            GameManager.notifyRareInvaderDestroyed();
-            RareInvader rareInvader = collision.gameObject.GetComponent<RareInvader>(); 
-            if (rareInvader != null)
+            int points = enemyPoints[collision.tag];
+
+            if (collision.tag == "RareInvader")
             {
-                rareInvader.ResetInvader(); 
+                GameManager.notifyRareInvaderDestroyed();
             }
-            Destroy(gameObject); 
+            else
+            {
+                GameManager.notifyInvaderDestroyed(points);
+            }
+
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
         }
     }
 
     void Update()
     {
+        // Verifica se a bala saiu da tela
         if (transform.position.y > 6f)
         {
             Destroy(gameObject);

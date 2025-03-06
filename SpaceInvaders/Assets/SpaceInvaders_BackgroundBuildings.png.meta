@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SpaceInvaders_BackgroundBuildings_0: -9140185041366159031
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9de906d20d9d84d4cbb7b6ae58954357
+guid: 1d1382bfe9c6648f8ba29398950af0c3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4710715936968863065
-    second: SpaceInvaders_Background 1_0
+      213: 3550358275390282749
+    second: Screenshot 2025-03-05 at 21.45.53_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SpaceInvaders_Background 1_0
+      name: Screenshot 2025-03-05 at 21.45.53_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 64
+        width: 1582
+        height: 882
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 95decccaf23df5140800000000000000
-      internalID: 4710715936968863065
+      spriteID: dfb91067a08654130800000000000000
+      internalID: 3550358275390282749
       vertices: []
       indices: 
       edges: []
@@ -130,8 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      SpaceInvaders_Background 1_0: 4710715936968863065
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

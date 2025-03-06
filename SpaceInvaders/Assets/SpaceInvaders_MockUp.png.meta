@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SpaceInvaders_MockUp_0: 8300383733725483304
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

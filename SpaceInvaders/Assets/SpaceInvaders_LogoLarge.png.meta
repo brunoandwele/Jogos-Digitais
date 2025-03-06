@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SpaceInvaders_LogoLarge_0: -2921076416015859614
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

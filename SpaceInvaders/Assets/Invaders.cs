@@ -9,7 +9,7 @@ public class Invaders : MonoBehaviour
     private float timerY = 0.0f;
     private static float waitTimeX = 3f;
     private static float waitTimeY = waitTimeX * 2;
-    private float speed = 0.4f;
+    private static float speed = 0.4f;
 
     public GameObject invaderBulletPrefab; 
     public float shootInterval = 10f; 
@@ -47,6 +47,12 @@ public class Invaders : MonoBehaviour
             }
             shootTimer = 0f;
         }
+
+        if (transform.position.y < -3.3f)
+        {
+            GameManager.notifyGameLost();
+        }
+
     }
 
     void ChangeXState()
@@ -63,5 +69,19 @@ public class Invaders : MonoBehaviour
     {
         // Instancia a bala na posição do inimigo e sem rotação
         GameObject bullet = Instantiate(invaderBulletPrefab, transform.position, Quaternion.identity);
+    }
+
+    public static void notifySpeedIncrement()
+    {
+        speed = speed*3;
+        waitTimeY = waitTimeY/3;
+        waitTimeX = waitTimeX/3;
+    }
+
+    public static void notifyResetParameters()
+    {
+        waitTimeX = 3f;
+        waitTimeY = waitTimeX * 2;
+        speed = 0.4f;
     }
 }

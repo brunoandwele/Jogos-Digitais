@@ -4,9 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Invader
   - Bullet
   - Heart
+  - Invader1
+  - Invader2
+  - Invader3
+  - RareInvader
+  - Invader
   layers:
   - Default
   - TransparentFX
