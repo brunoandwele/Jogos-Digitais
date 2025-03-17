@@ -6,22 +6,42 @@ public class Paralax : MonoBehaviour
 {
 
     private float lenght;
-    public float parallaxEffect;
+    public static float parallaxEffectStars = 1.5f;
+    public static float parallaxEffectGalaxy = 1f;
 
-    // Start is called before the first frame update
+    private float speed;
+
+    private string currentTag;
+
     void Start()
     {
+        currentTag = gameObject.tag;
         lenght = GetComponent<SpriteRenderer>().bounds.size.x;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        transform.position += Vector3.left * Time.deltaTime * parallaxEffect;
+        if(currentTag == "stars"){
+            speed = parallaxEffectStars;
+        }
+        else{
+            speed = parallaxEffectGalaxy;
+        }
+        transform.position += Vector3.left * Time.deltaTime * speed;
         if (transform.position.x < -lenght)
         {
             transform.position = new Vector3(lenght, transform.position.y, transform.position.z);
         }
 
+    }
+
+    public static void applySlowMotion(){
+        parallaxEffectStars = parallaxEffectStars*0.2f;
+        parallaxEffectGalaxy = parallaxEffectGalaxy*0.2f;
+    }
+
+    public static void removeSlowMotion(){
+        parallaxEffectStars = parallaxEffectStars/0.2f;
+        parallaxEffectGalaxy = parallaxEffectGalaxy/0.2f;
     }
 }
